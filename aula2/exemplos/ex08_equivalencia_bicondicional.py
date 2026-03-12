@@ -1,3 +1,5 @@
+# Lei da Bicondicional
+
 acesso_premium = True
 assinatura_ativa = False
 

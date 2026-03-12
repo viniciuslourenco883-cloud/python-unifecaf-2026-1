@@ -1,3 +1,5 @@
+# Lei da Implicação
+
 usuario_admin = False
 acesso_painel = True
 

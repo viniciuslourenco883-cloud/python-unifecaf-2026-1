@@ -1,3 +1,5 @@
+# Silogismo Disjuntivo
+
 estuda = True
 descansa = True
 

@@ -1,3 +1,5 @@
+# Dupla Negação
+
 ativo = True
 
 if ativo:

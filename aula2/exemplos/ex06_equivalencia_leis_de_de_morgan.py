@@ -1,3 +1,5 @@
+# Leis de De Morgan
+
 usuario_logado = False
 usuario_pago = False
 

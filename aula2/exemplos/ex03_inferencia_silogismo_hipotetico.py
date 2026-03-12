@@ -1,3 +1,5 @@
+# Silogismo Hipotético
+
 treino = True
 melhora = False
 ganha = False
