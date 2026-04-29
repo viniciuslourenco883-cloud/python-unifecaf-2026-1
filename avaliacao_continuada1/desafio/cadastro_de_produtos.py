@@ -42,24 +42,36 @@
 # IMPORTANTE: Ignore os erros de execução. Em funções como atualizar e remover, apenas passe como
 # parâmetros índices de produtos existentes.
 
-produtos = [] #Exemplo de item {nome: Arroz, preco: 30.00}
+produtos = [
+    {'nome': 'Arroz', 'preco':30.00}
+] #Exemplo de item {nome: Arroz, preco: 30.00}
 
 def listarProdutos():
     if(len(produtos) == 0):
         print('Não tem produtos cadastrados')
     for p in produtos:
-        print(f'{p['nome']} ... R$ {p['preco']:.2f}')
+        print(f"{p['nome']} ... R$ {p['preco']:.2f}")
         
         
 def adicionarProduto(produto):
-    return 
+    produtos.append(produto)
+    return True
 
 
-def buscarProduto(produtoNome):
-    return 
+
+def buscarProduto(produtoBuscado):
+  for i in range(len(produtos)):
+      if(produtoBuscado==produtos[i]):
+          return(i, produtos[i])
+      return i
+  return None
+      
+
 
 
 def atualizarProduto(indice, produto):
+    
+    
     return 
 
 
@@ -98,7 +110,10 @@ while(opcao != '0'):
         listarProdutos()
     
     elif(opcao == '3'): 
+        
          print('BUSCAR PRODUTO =========================')
+         busca_produto = input("Digite o nome: ")
+         print (buscarProduto(nome))
     
     elif(opcao == '4'): 
          print('ATUALIZAR PRODUTO ======================')

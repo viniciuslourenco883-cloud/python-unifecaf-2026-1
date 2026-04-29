@@ -1,6 +1,6 @@
 # Passageiro pode embarcar no ônius?
 
-passagem_paga = True
+passagem_paga = False
 pessoa_idosa = False
 
 if(passagem_paga == True or pessoa_idosa == True):

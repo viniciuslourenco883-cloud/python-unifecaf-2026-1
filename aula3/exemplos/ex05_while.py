@@ -8,7 +8,7 @@ while (not conexaoDB and tentativas < 5):
     tentativas += 1
     print(f"Tentativa {tentativas}: {'Sucesso' if conexaoDB else 'Falha'}")
 
-if not conexaoDB:
+if not conexaoDB:   
     print('Não foi possível conectar após', tentativas, 'tentativas')
 else:
     print('Conectado com sucesso!')

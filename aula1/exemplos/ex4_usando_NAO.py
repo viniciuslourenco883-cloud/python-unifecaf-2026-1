@@ -1,6 +1,6 @@
 # Apenas abra o programa se houver conexão com a internet
 
-conexao_internet = False
+conexao_internet = True
 
 if(not(conexao_internet)):
     print('Tente se conectar novamente')

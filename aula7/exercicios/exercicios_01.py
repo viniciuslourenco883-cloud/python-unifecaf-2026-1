@@ -1,2 +1,9 @@
 for i in range(3):
     print(i)
+    
+# i=0
+#print(i)
+#i=1
+#print(i)
+#i=2
+#print(i)
